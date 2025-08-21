@@ -44,7 +44,6 @@ async function runIos(
     project,
     scheme,
     configuration = 'Debug',
-    sdk,
     destination = 'simulator',
     hermes,
     newArchitecture,
