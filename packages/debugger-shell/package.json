@@ -8,11 +8,11 @@
   ],
   "homepage": "https://github.com/facebook/react-native/tree/HEAD/packages/debugger-shell#readme",
   "bugs": "https://github.com/facebook/react-native/issues",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "exports": {
     ".": {
-      "node": "./src/node/index.js",
-      "electron": "./src/electron/index.js"
+      "node": "./dist/node/index.js",
+      "electron": "./dist/electron/index.js"
     },
     "./package.json": "./package.json"
   },
