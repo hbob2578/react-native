@@ -9,6 +9,8 @@
  */
 
 export {default as bundleCommand} from './commands/bundle';
+export {default as runAndroidCommand} from './commands/run-android';
+export {default as runIosCommand} from './commands/run-ios';
 export {default as startCommand} from './commands/start';
 
 export {unstable_buildBundleWithConfig} from './commands/bundle/buildBundle';

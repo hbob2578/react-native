@@ -72,10 +72,12 @@ const commands /*: Array<Command> */ = [];
 
 const {
   bundleCommand,
+  runAndroidCommand,
+  runIosCommand,
   startCommand,
 } = require('@react-native/community-cli-plugin');
 
-commands.push(bundleCommand, startCommand);
+commands.push(bundleCommand, startCommand, runAndroidCommand, runIosCommand);
 
 const codegenCommand /*: Command */ = {
   name: 'codegen',
